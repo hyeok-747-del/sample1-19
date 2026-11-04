@@ -1,22 +1,24 @@
 import Body from "./body.jsx";
 import Footer from "./footer.jsx";
+import Header from "./Header.jsx";
 
 function Header() {
   return (
-    <header>
-      <h1>header</h1>
-    </header>
+    <div>
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   );
 }
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <h1>헬로우 리액트</h1>
       <Body />
       <Footer />
-    </>
+    </div>
   );
 }
 
